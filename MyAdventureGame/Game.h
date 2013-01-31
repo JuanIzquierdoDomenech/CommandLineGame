@@ -8,6 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
+void waitOnCR(void);
+
 @interface Game : NSObject
+
+@property (strong) NSString *name;
+@property BOOL isUserAlive;
+@property int health;
+@property int answer;
+
+- (void)instructions;
+- (void)day1;
+- (void)day2;
+- (void)day3;
 
 @end
