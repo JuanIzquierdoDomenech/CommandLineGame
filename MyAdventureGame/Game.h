@@ -1,5 +1,5 @@
 //
-//  main.m
+//  Game.h
 //  MyAdventureGame
 //
 //  Created by Juan Jesús Izquierdo Doménech on 31/01/13.
@@ -8,14 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[])
-{
+@interface Game : NSObject
 
-    @autoreleasepool {
-        
-
-        
-    }
-    return 0;
-}
-
+@end

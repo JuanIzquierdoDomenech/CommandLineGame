@@ -10,6 +10,7 @@
 		964F040116BAD4BB0088D88C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964F040016BAD4BB0088D88C /* Foundation.framework */; };
 		964F040416BAD4BB0088D88C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F040316BAD4BB0088D88C /* main.m */; };
 		964F040816BAD4BB0088D88C /* MyAdventureGame.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 964F040716BAD4BB0088D88C /* MyAdventureGame.1 */; };
+		964F041016BAD5CA0088D88C /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F040F16BAD5CA0088D88C /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		964F040316BAD4BB0088D88C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		964F040616BAD4BB0088D88C /* MyAdventureGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAdventureGame-Prefix.pch"; sourceTree = "<group>"; };
 		964F040716BAD4BB0088D88C /* MyAdventureGame.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MyAdventureGame.1; sourceTree = "<group>"; };
+		964F040E16BAD5CA0088D88C /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		964F040F16BAD5CA0088D88C /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				964F040316BAD4BB0088D88C /* main.m */,
+				964F040E16BAD5CA0088D88C /* Game.h */,
+				964F040F16BAD5CA0088D88C /* Game.m */,
 				964F040716BAD4BB0088D88C /* MyAdventureGame.1 */,
 				964F040516BAD4BB0088D88C /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				964F040416BAD4BB0088D88C /* main.m in Sources */,
+				964F041016BAD5CA0088D88C /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
